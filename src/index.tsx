@@ -13,5 +13,5 @@ const container = document.getElementById("app");
 
 if (container) {
   const root = createRoot(container);
-  root.render(<Greet text="wtf" />);
+  root.render(<Greet text="esbuild react template" />);
 }
